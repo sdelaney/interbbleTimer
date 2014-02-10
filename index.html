@@ -102,12 +102,9 @@
           //load the json object
           $.getJSON("programs.json", function(json) {
 
-            console.log(json);
-            console.log( typeof json);
-            var configObj = { "program": program,
-                              "week": week,
-                              "session": session
-                            };
+            //pull out the appropriate interval segment for the selected program
+            var configObj = json[program][week][session];
+            console.log(configObj);
 
             //save in local storage
             localStorage.setItem("selected_program", program);
