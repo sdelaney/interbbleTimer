@@ -1,7 +1,7 @@
 {
   "uuid": "718bfd15-81fb-4b17-ac00-4d6f7575d8fb",
-  "shortName": "interbbleTimer",
-  "longName": "interbbleTimer",
+  "shortName": "Interbble Timer",
+  "longName": "Interbble Timer",
   "companyName": "MakeAwesomeHappen",
   "versionCode": 1,
   "versionLabel": "1.0.0",
@@ -9,7 +9,9 @@
     "watchface": false
   },
   "appKeys": {
-    "dummy": 0
+    "program": 0,
+    "week": 1,
+    "session": 2
   },
   "resources": {
     "media": []
