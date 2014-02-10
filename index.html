@@ -99,19 +99,26 @@
           var week = $("#select-week").val();
           var session = $("#select-session").val();
 
-          var configObj = { "program": program,
-                            "week": week,
-                            "session": session
-                          };
+          //load the json object
+          $.getJSON("programs.json", function(json) {
 
-          //save in local storage
-          localStorage.setItem("program", program);
-          localStorage.setItem("week", week);
-          localStorage.setItem("session", session);
+            console.log(json);
+            console.log( typeof json);
+            var configObj = { "program": program,
+                              "week": week,
+                              "session": session
+                            };
 
-          console.log("Configuration form submitted  -- program: " + program + ", week: " + week + ", session: " + session);
+            //save in local storage
+            localStorage.setItem("selected_program", program);
+            localStorage.setItem("selected_week", week);
+            localStorage.setItem("selected_session", session);
 
-          document.location = "pebblejs://close#" + JSON.stringify(configObj);
+            console.log("Configuration form submitted  -- program: " + program + ", week: " + week + ", session: " + session);
+
+            document.location = "pebblejs://close#" + JSON.stringify(configObj);
+          });
+
           e.preventDefault();
 
         });
