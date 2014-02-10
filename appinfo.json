@@ -1,0 +1,18 @@
+{
+  "uuid": "718bfd15-81fb-4b17-ac00-4d6f7575d8fb",
+  "shortName": "interbbleTimer",
+  "longName": "interbbleTimer",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  },
+  "capabilities": ["configurable"]
+}
