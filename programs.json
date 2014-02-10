@@ -1,0 +1,733 @@
+{
+	"run10k": {
+		"week1": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":1, "walk":2, "repeat": 8}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":1, "walk":2, "repeat": 6}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":1, "walk":2, "repeat": 7}
+				],
+				"cooldown": 5
+			}
+		},
+		"week2": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":2, "walk":2, "repeat": 7}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":1, "walk":2, "repeat": 7}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":2, "walk":2, "repeat": 6}
+				],
+				"cooldown": 5
+			}
+		},
+		"week3": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":2, "repeat": 7}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":2, "walk":2, "repeat": 6}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":2, "repeat": 6}
+				],
+				"cooldown": 5
+			}
+		},
+		"week4": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":2, "repeat": 6}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":2, "walk":2, "repeat": 5}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":2, "walk":3, "repeat": 6}
+				],
+				"cooldown": 5
+			}
+		},
+		"week5": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":1, "repeat": 9}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":2, "walk":1, "repeat": 8}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":1, "repeat": 8}
+				],
+				"cooldown": 5
+			}
+		},
+		"week6": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":5, "walk":1, "repeat": 7}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":1, "repeat": 7}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":1, "repeat": 10}
+				],
+				"cooldown": 5
+			}
+		},
+		"week7": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 4}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":4, "walk":1, "repeat": 6}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":5, "walk":1, "repeat": 7}
+				],
+				"cooldown": 5
+			}
+		},
+		"week8": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 4}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":3, "walk":1, "repeat": 7}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":5, "walk":1, "repeat": 6}
+				],
+				"cooldown": 5
+			}
+		},
+		"week9": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 1},
+					{"run":15, "walk":1, "repeat": 1},
+					{"run":20, "walk":1, "repeat": 1},
+					{"run":10, "walk":0, "repeat": 1}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":5, "walk":1, "repeat": 6}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 4}
+				],
+				"cooldown": 5
+			}
+		},
+		"week10": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 1},
+					{"run":20, "walk":1, "repeat": 1},
+					{"run":30, "walk":0, "repeat": 0}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 4}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":20, "walk":1, "repeat": 1},
+					{"run":15, "walk":1, "repeat": 1},
+					{"run":10, "walk":0, "repeat": 1}
+				],
+				"cooldown": 5
+			}
+		},
+		"week11": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":40, "walk":1, "repeat": 1},
+					{"run":20, "walk":0, "repeat": 1}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 4}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":20, "walk":1, "repeat": 1},
+					{"run":15, "walk":1, "repeat": 1},
+					{"run":10, "walk":0, "repeat": 1}
+				],
+				"cooldown": 5
+			}
+		},
+		"week12": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":50, "walk":0, "repeat": 1}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 3}
+				],
+				"cooldown": 5
+			},
+			"session3": {
+				"warmup": 5,
+				"intervals": [
+					{"run":15, "walk":1, "repeat": 2},
+					{"run":10, "walk":0, "repeat": 1}
+				],
+				"cooldown": 5
+			}
+		},
+		"week13": {
+			"session1": {
+				"warmup": 5,
+				"intervals": [
+					{"run":40, "walk":0, "repeat": 1}
+				],
+				"cooldown": 5
+			},
+			"session2": {
+				"warmup": 5,
+				"intervals": [
+					{"run":10, "walk":1, "repeat": 3}
+				],
+				"cooldown": 5
+			}
+		}
+	},
+	"walk10k": {
+		"week1": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week2": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week3": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week4": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week5": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week6": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week7": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week8": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week9": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week10": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week11": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week12": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week13": {
+			"session1": {
+
+			},
+			"session2": {
+
+			}
+		}
+	},
+	"runWalk10k": {
+		"week1": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week2": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week3": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week4": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week5": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week6": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week7": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week8": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week9": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week10": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week11": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week12": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week13": {
+			"session1": {
+
+			},
+			"session2": {
+
+			}
+		}
+	},
+	"run10kFaster": {
+		"week1": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week2": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week3": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week4": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week5": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week6": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week7": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week8": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week9": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week10": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week11": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week12": {
+			"session1": {
+
+			},
+			"session2": {
+
+			},
+			"session3": {
+
+			}
+		},
+		"week13": {
+			"session1": {
+
+			},
+			"session2": {
+
+			}
+		}
+	}
+}
