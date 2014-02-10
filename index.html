@@ -12,7 +12,7 @@
     <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>My Bus Configuration</title>
+    <title>Interbble Timer</title>
   </head>
 
   <body>
@@ -20,7 +20,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <h4 id="project_title">My Bus Configuration</h4>
+          <h4 id="project_title">Interbble Timer Configuration</h4>
         </header>
     </div>
 
@@ -28,6 +28,7 @@
     <div id="main_content_wrap" class="outer">
       <form id="config-form" class="inner" action="#" method="POST">
         <div data-role="content">
+          <label for="select-program">Program:</label>
           <select id="select-program" data-native-menu="false">
             <option value="walk10k">Learn to Walk 10K</option>
             <option value="run10k" selected>Learn to Run 10K</option>
@@ -36,6 +37,7 @@
           </select>
         </div>
         <div data-role="content">
+          <label for="select-week">Week:</label>
           <select id="select-week" data-native-menu="false">
             <option value="week1">Week 1</option>
             <option value="week2">Week 2</option>
@@ -53,6 +55,7 @@
           </select>
         </div>
         <div data-role="content">
+          <label for="select-session">Session:</label>
           <select id="select-session" data-native-menu="false">
             <option value="session1">Session 1</option>
             <option value="session2">Session 2</option>
@@ -93,13 +96,15 @@
           var week = $("#select-week").val();
           var session = $("#select-session").val();
 
-          var configObj = { "program": stop,
-                            "week": route
+          var configObj = { "program": program,
+                            "week": week,
                             "session": session
                           };
 
-          localStorage.setItem("stop_num", stop);
-          localStorage.setItem("route_num", route);
+          //save in local storage
+          localStorage.setItem("program", program);
+          localStorage.setItem("week", week);
+          localStorage.setItem("session", session);
 
           console.log("Configuration form submitted  -- program: " + program + ", week: " + week + ", session: " + session);
 
