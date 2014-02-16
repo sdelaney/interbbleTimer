@@ -104,6 +104,8 @@
 
             //pull out the appropriate interval segment for the selected program
             var configObj = json[program][week][session];
+            configObj.program_title = $("#select-program").text();
+            configObj.session_title = $("select-week").text() + " " + $("select-session").text();
             console.log(configObj);
             console.log(JSON.stringify(configObj));
 
